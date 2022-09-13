@@ -169,7 +169,7 @@
 \usepackage{color}
 
 % primary color
-\definecolor{maincol}{RGB}{ 30, 144, 255 }
+\definecolor{maincol}{RGB}{ 0, 0, 255 }
 
 % accent color, secondary
 % \definecolor{accentcol}{RGB}{ 250, 150, 10 }
@@ -275,7 +275,7 @@
 	% if you need more control on page breaks, remove the parbox
 	\parbox{\mpwidth}{
 		\begin{tabular*}{1\mpwidth}{p{0.72\mpwidth}  r}
-	 		\textcolor{black}{\textbf{#2}} & \colorbox{maincol}{\makebox[0.33\mpwidth]{\textcolor{white}{#1}}} \\
+	 		\textcolor{black}{\textbf{#2}} & \colorbox{maincol}{\makebox[0.33\mpwidth]{\textcolor{white}{\textbf{#1}}}} \\
 			\textcolor{maincol}{\textbf{#3}} & \\
 		\end{tabular*}\\[8pt]
 	
@@ -372,6 +372,10 @@
 \\
 \textbf{ \textcolor{blue}{Gender}}\\
 \textbf{ Male }
+\\
+\\
+\textbf{ \textcolor{blue}{Date of birth}}\\
+\textbf{ 14/02/2000 }
 
 \vfull\null
 
@@ -567,7 +571,7 @@
 \vfill\null
 \cvsection{PROFILE}
 
-\cvtext{I am a software developer with 5 years of professional experience and 7 years of overall experience in developing modern android mobile applications with android development tools such as Kotlin, Java, Android Studio, Jetpack Libraries, jetpack compose, MVVM and Clean Architecture. \\
+\cvtext{Software developer with 5 years of professional experience and 7 years of overall experience in developing modern android mobile applications with android development tools such as Kotlin, Java, Android Studio, Jetpack Libraries, jetpack compose, MVVM and Clean Architecture. \\
 
 I am also experienced in developing React.js applications and back-end applications using Typescript, Mongo Database, Redis and Node.js. My strongest skill is mobile development. I love learning new technologies and improving my soft and technical skills. Also have a ﬁrm foundation in math skills and logical thinking.\\
 
@@ -740,4 +744,3 @@ Have experience working in startups and fast-moving teams with ﬁxed deadlines.
 \end{rightcolumn}
 \end{paracol}
 \end{document}
-
